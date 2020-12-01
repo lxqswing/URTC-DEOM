@@ -80,7 +80,9 @@ class ClassRoom extends React.Component {
       userName: storeData.userName,
     });
     console.log('sss', storeData)
-
+    sdk.setServers({
+      signal: signalLink // signal 为 URTC 信令服务的访问地址
+    })
     let token = sdk.generateToken(AppId, AppKey, roomId, userId);
     this.Client = new Client(AppId, token, {
       type: storeData.roomType,

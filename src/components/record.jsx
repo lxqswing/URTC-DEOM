@@ -97,7 +97,7 @@ class Record extends React.Component {
         if (!e) {
 
           recordStore.setUrl(
-            `http://urtc-test.cn-bj.ufileos.com/${d.FileName}.mp4`
+            `${d.FileName}.mp4`
           );
         }
         console.log(d);

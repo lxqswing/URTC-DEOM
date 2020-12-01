@@ -47,6 +47,7 @@ class Settings extends React.Component {
       audioOutputList: [],
       videoProlieList: [],
       videoCodecList: [],
+      signalLink: 'wss://rtc.example.com:5005',
       AppKey: 'kejin', //AppKey
       AppId: 'kejin', //AppId
       isPhone: !isPC(),
@@ -72,8 +73,11 @@ class Settings extends React.Component {
     this.getSupportProfile();
     this.getSupportedCodec();
     const initData = this.state.initData;
+    let storeSettings = this.props.store.settings;
+    storeSettings.setParamKey("signalLink", initData.signalLink);
     this.setState({
-      signalLink: initData.signalLink
+      signalLink: initData.signalLink,
+      // initData: { ...initData, signalLink: initData.signalLink },
     });
   }
   componentWillReceiveProps(nextProps) {
@@ -291,6 +295,7 @@ class Settings extends React.Component {
       isPhone,
       signalLink
     } = this.state;
+    console.log('signalLink',signalLink)
     // console.log(this.props.store.settings.roomType)
     // const { settings,Settings } = this.props.store;
     let { settings } = this.props.store;
