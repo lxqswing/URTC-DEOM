@@ -24,7 +24,7 @@ class Settings {
   @observable desktopProfile = "1280*720"; //分享桌面分辨率
   @observable apiLink = "";
   @observable logLink = "";
-  @observable signalLink = "";
+  @observable signalLink = "wss://rtc.example.com:5005";
   
 
   @action

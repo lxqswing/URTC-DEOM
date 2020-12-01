@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d9f5cf5.chunk.css",
+    "main.js": "/static/js/main.649eb17e.chunk.js",
+    "main.js.map": "/static/js/main.649eb17e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.78c4166f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.78c4166f.js.map",
+    "static/js/2.5d085b46.chunk.js": "/static/js/2.5d085b46.chunk.js",
+    "static/js/2.5d085b46.chunk.js.map": "/static/js/2.5d085b46.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.59e0bb4ea08a9c8dbde454087345d5bd.js": "/precache-manifest.59e0bb4ea08a9c8dbde454087345d5bd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9d9f5cf5.chunk.css.map": "/static/css/main.9d9f5cf5.chunk.css.map",
+    "static/js/2.5d085b46.chunk.js.LICENSE.txt": "/static/js/2.5d085b46.chunk.js.LICENSE.txt",
+    "static/media/classRoom.css": "/static/media/19201080.3fd6450c.png",
+    "static/media/test.wav": "/static/media/test.e8d9e658.wav",
+    "static/media/icon.min.css": "/static/media/ucicon.8bbd2ddd.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78c4166f.js",
+    "static/js/2.5d085b46.chunk.js",
+    "static/css/main.9d9f5cf5.chunk.css",
+    "static/js/main.649eb17e.chunk.js"
+  ]
+}
